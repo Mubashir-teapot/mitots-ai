@@ -17,6 +17,7 @@ app.use(
     origin: [
       'http://localhost:3000',
       'http://localhost:5173',
+      'https://mitots-ai.mera-bazaar.com',
       /^http:\/\/localhost:\d+$/,
     ],
     allowedHeaders: ['Content-Type', 'Authorization'],
